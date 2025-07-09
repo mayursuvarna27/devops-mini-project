@@ -32,4 +32,4 @@ jobs:
       - name: Push Docker image
         run: |
           docker tag devops-flask-app docky27/devops-flask-app:latest
-          docker push Mayur@2003/devops-flask-app:latest
+          docker push docky27/devops-flask-app:latest
